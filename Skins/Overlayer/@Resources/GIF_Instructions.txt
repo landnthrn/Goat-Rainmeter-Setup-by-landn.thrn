@@ -1,0 +1,43 @@
+GIF Animation Support for Overlayer Plugin
+==========================================
+
+The Overlayer plugin now supports animated GIFs! Here's how to use this feature:
+
+STEP 1: Prepare Your GIF
+------------------------
+1. Place your GIF file in the UserImages folder
+2. Rename it to "animation.gif"
+
+STEP 2: Split the GIF into Frames
+---------------------------------
+1. Run the "split_gif.bat" script in the @Resources folder
+2. This will create individual frame files: frame_0.gif, frame_1.gif, frame_2.gif, etc.
+3. Count how many frame files were created
+
+STEP 3: Configure Overlayer
+---------------------------
+1. Open Jaxcore and go to Overlayer settings
+2. Set "Layering image" to point to frame_0.gif (or any frame file)
+3. Set "GIF total frames" to the number of frames you counted in step 2
+4. Configure other settings as needed (position, size, etc.)
+
+STEP 4: Test
+------------
+1. Activate the Overlayer plugin in Jaxcore
+2. Your GIF should now animate on your desktop!
+
+IMPORTANT NOTES:
+- The plugin automatically detects .gif files and enables animation
+- For regular images (PNG, JPG), the plugin works as before
+- The animation speed is controlled by the Update rate (currently set to 50ms)
+- Make sure all frame files are in the same folder as specified in GIFPath
+
+TROUBLESHOOTING:
+- If animation doesn't work, check that all frame files exist
+- Make sure the "GIF total frames" count matches the actual number of frames
+- Verify that ImageMagick is installed if you're using the batch script
+- Check that the GIFPath variable points to the correct folder
+
+For transparent GIFs:
+- The transparency should be preserved in the individual frame files
+- Make sure your GIF was created with proper transparency support
