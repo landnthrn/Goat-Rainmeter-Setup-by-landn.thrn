@@ -1,6 +1,9 @@
 
 <img width="1047" height="719" alt="PREVIEW" src="https://github.com/user-attachments/assets/192ff940-070c-4759-ba58-c84b584f69b8" />
 
+![OverlayedGifPreview-ezgif com-optimize](https://github.com/user-attachments/assets/45ec32a9-207d-49db-8683-a3f0ea0b7d95)
+
+
 # Goat Rainmeter Setup
 
 Enjoy some tweaks in Windows 10/11 with this Rainmeter setup! 
