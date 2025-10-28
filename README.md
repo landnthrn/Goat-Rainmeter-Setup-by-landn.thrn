@@ -63,7 +63,7 @@ If you're trying to do an animation with an image sequence, make sure to name ea
 
 I believe it supports `.jpeg` or `.png`, but I used `.gif` to save storage and still allow for transparency.  
 
-Make sure to refresh all skins after you're done (Find the Rainmeter drop icon in your system tray → Right click → Refresh All).  
+Make sure to refresh all skins after you're done *(Find the Rainmeter drop icon in your system tray → Right click → Refresh All)*  
 
 ---
 
@@ -87,7 +87,7 @@ Find the `String.inc` file in there → Right click → Edit.
 
 Change the `Idlebackground.jpg` name to the name of your new custom image, and include the file format at the end (`.jpg`, `.png`).  
 
-Refresh all skins after you're done this (Rainmeter drop icon in system tray → Right click → Refresh All).  
+Refresh all skins after you're done this *(Rainmeter drop icon in system tray → Right click → Refresh All)* 
 
 ---
 
