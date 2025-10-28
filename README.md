@@ -25,16 +25,16 @@ https://wiki.jaxcore.app/getting-started/installation
 You will have to do some onboarding when you initially install JaxCore, I recommend to select Hardware Acceleration and pause when game is in fullscreen mode.  
 
 Once these have been installed go to this path address in your File Explorer:  
-C:\Users\%USERNAME%\Documents\Rainmeter\Skins  
+C:\\Users\\%USERNAME%\\Documents\\Rainmeter\\Skins  
 
 Paste all the folders that are inside this pack's Skin's Folder into:  
-C:\Users\%USERNAME%\Documents\Rainmeter\Skins  
+C:\\Users\\%USERNAME%\\Documents\\Rainmeter\\Skins  
 
 If you already have some of the same Skins in your Skins Folder replace them with the ones from this pack.  
 (Don't replace the Skin Folder itself with this one, just the folders that are inside the Skins Folder if it asks you about replacing.)  
 
 Move the Sonder green drop icon `.rmskin` file from this pack into:  
-C:\Users\%USERNAME%\Documents\Rainmeter  
+C:\\Users\\%USERNAME%\\Documents\\Rainmeter  
 
 Run the Sonder.rmskin file to install that Skin.  
 
@@ -57,7 +57,7 @@ At first all these skins may activate a little messy or scattered, this is where
 **I modified Overlayer Skin to support an animation including transparent animations, but this can only be done using an image sequence (images of each frame).**  
 
 Insert your image, or all your image frames into this location:  
-C:\Users\%USERNAME%\Documents\Rainmeter\Skins\Overlayer\@Resources\UserImages  
+C:\\Users\\%USERNAME%\\Documents\\Rainmeter\\Skins\\Overlayer\\@Resources\\UserImages  
 
 If you're trying to do an animation with an image sequence, make sure to name each image frame accordingly (`frame_0, frame_1, frame_2, frame_3...`).  
 
@@ -78,10 +78,10 @@ Try out the different Flyout options (trigger display button is F2, pause audio 
 # HOW TO CUSTOMIZE YOUR IDLESTYLE IMAGE
 
 Insert whatever image you'd like into this location:  
-C:\Users\%USERNAME%\Documents\Rainmeter\Skins\IdleStyle\@Resources\Images  
+C:\\Users\\%USERNAME%\\Documents\\Rainmeter\\Skins\\IdleStyle\\@Resources\\Images  
 
 Then go to this location:  
-C:\Users\%USERNAME%\Documents\Rainmeter\Skins\IdleStyle\Launch\Vars  
+C:\\Users\\%USERNAME%\\Documents\\Rainmeter\\Skins\\IdleStyle\\Launch\Vars  
 
 Find the `String.inc` file in there → Right click → Edit.  
 
