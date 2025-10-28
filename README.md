@@ -31,14 +31,14 @@ Paste all the folders that are inside this pack's Skin's Folder into:
 C:\\Users\\%USERNAME%\\Documents\\Rainmeter\\Skins  
 
 If you already have some of the same Skins in your Skins Folder replace them with the ones from this pack.  
-(Don't replace the Skin Folder itself with this one, just the folders that are inside the Skins Folder if it asks you about replacing.)  
+*(Don't replace the Skin Folder itself with this one, just the folders that are inside the Skins Folder if it asks you about replacing.)*  
 
 Move the Sonder green drop icon `.rmskin` file from this pack into:  
 C:\\Users\\%USERNAME%\\Documents\\Rainmeter  
 
 Run the Sonder.rmskin file to install that Skin.  
 
-Go to your system tray (the upward arrow at the bottom left of your taskbar) — you should see the Rainmeter drop icon there.  
+Go to your system tray *(the upward arrow at the bottom left of your taskbar)* — you should see the Rainmeter drop icon there.  
 
 Right click the Rainmeter icon and click **Refresh All**.  
 
@@ -46,7 +46,7 @@ Open JaxCore by Windows Search.
 If it doesn't appear in search, then double click your Rainmeter icon in your system tray → expand the #JaxCore folder → expand the Main folder → double click `Configurator.ini` to open JaxCore.  
 
 On the JaxCore app select **Library**, one by one activate **YourFlyouts, ValliStart, IdleStyle, and Overlayer**.  
-(You don't need to install them from JaxCore App because you already placed the source files for those in your Rainmeter Skins folder.)  
+*(You don't need to install them from JaxCore App because you already placed the source files for those in your Rainmeter Skins folder)*
 
 At first all these skins may activate a little messy or scattered, this is where you can tweak the settings for each one to your liking.  
 
@@ -54,7 +54,7 @@ At first all these skins may activate a little messy or scattered, this is where
 
 # HOW TO CUSTOMIZE YOUR OVERLAYER IMAGE/GIF
 
-**I modified Overlayer Skin to support an animation including transparent animations, but this can only be done using an image sequence (images of each frame).**  
+**I modified Overlayer Skin to support an animation including transparent animations, but this can only be done using an image sequence** *(images of each frame).*
 
 Insert your image, or all your image frames into this location:  
 C:\\Users\\%USERNAME%\\Documents\\Rainmeter\\Skins\\Overlayer\\@Resources\\UserImages  
@@ -71,7 +71,7 @@ Make sure to refresh all skins after you're done *(Find the Rainmeter drop icon 
 
 On the JaxCore app Library select **YourFlyouts > Layout**.  
 
-Try out the different Flyout options (trigger display button is F2, pause audio button, or volume adjust).  
+Try out the different Flyout options *(trigger display button is F2, pause audio button, or volume adjust)*
 
 ---
 
