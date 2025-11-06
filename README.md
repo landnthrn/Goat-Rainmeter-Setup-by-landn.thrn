@@ -57,10 +57,10 @@ At first all these skins may activate a little messy or scattered, this is where
 ### OPTION 1: USING A SINGLE IMAGE
 
 Put your image into this location:  
-C:\Users\%USERNAME%\Documents\Rainmeter\Skins\Overlayer\@Resources\UserImages
+C:\\Users\\%USERNAME%\\Documents\\Rainmeter\\Skins\\Overlayer\\@Resources\\UserImages
 
 Then go to this location:  
-C:\Users\%USERNAME%\Documents\Rainmeter\Skins\Overlayer\@Resources
+C:\\Users\\%USERNAME%\\Documents\\Rainmeter\\Skins\\Overlayer\\@Resources
 
 Find the Vars.inc file > Right click > Edit  
 
@@ -95,7 +95,7 @@ I know that can be a great pain to do manually, so try a tool online, or use Cur
 (The file format can be .gif, .png, or .jpeg — just make sure all your images in your image sequence are the same format.)
 
 Next, go to this location:  
-C:\Users\%USERNAME%\Documents\Rainmeter\Skins\Overlayer\@Resources
+C:\\Users\\%USERNAME%\\Documents\\Rainmeter\\Skins\\Overlayer\\@Resources
 
 Find the Vars.inc file > Right click > Edit  
 
