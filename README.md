@@ -8,7 +8,7 @@
 
 Enjoy some tweaks in Windows 10/11 with this Rainmeter setup! 
 
-This repo is above 100mb's so downloading it on Github may be problematic
+### This repo is above 100mb's so downloading it on Github may be problematic
 ### [Suggest to download from here](https://buymeacoffee.com/landn.thrn/e/455433)
 
 ---
@@ -55,9 +55,10 @@ At first all these skins may activate a little messy or scattered, this is where
 # HOW TO CUSTOMIZE YOUR OVERLAYER IMAGE/GIF
 
 ### OPTION 1: USING A SINGLE IMAGE
-
 - Put your image into this location:  
 `C:\Users\%USERNAME%\Documents\Rainmeter\Skins\Overlayer\@Resources\UserImages`
+
+- **Rename your image to `frame_0`** *(Windows will keep whatever extension the file already has, e.g., `.gif`, `.png`, or `.jpg`)*
 
 - Then go to this location:  
 `C:\Users\%USERNAME%\Documents\Rainmeter\Skins\Overlayer\@Resources`
@@ -66,14 +67,26 @@ At first all these skins may activate a little messy or scattered, this is where
 
 **Change these values in Vars.inc:**
 
-- Change `ImagePath=frame_0.gif` to `ImagePath=YOURIMAGENAME.png` (or .jpg, .gif, whatever your file format is)  
-
 - Change `ImageName=GirlCoffeeOverlay` to `ImageName=WHATEVERYOUWANT`  
 (this is just a descriptive name that shows in settings)  
 
-- Change `GIFTotalFrames=80` to `GIFTotalFrames=1`  
+- Change `TotalFrames=80` to `TotalFrames=1`  
 
 - Save the file.  
+
+**If you're not using .gif format:**
+  
+- Go to this location:  
+`C:\Users\%USERNAME%\Documents\Rainmeter\Skins\Overlayer\Main`  
+
+- Find the Main.ini file > Right click > Edit
+
+- Find the line that says:  
+`String=#@#UserImages\frame_[FrameCalc].gif`
+  
+- Change the `.gif` at the end to match your file format
+
+- Save the file
 
 - Refresh all skins: *(Find the Rainmeter drop icon in your system tray > Right click > Refresh All)*
 
@@ -93,12 +106,12 @@ Or you can use [ImageMagick](https://imagemagick.org) *(With FFmpeg)* for more o
 - Insert all your image frames into this location:  
 `C:\Users\%USERNAME%\Documents\Rainmeter\Skins\Overlayer\@Resources\UserImages`
 
-- **Every image frame need to be name exactly like this:**  
-`frame_0.gif`  
-`frame_1.gif`  
-`frame_2.gif`  
-`frame_3.gif`  
-...and so on
+- **Every image frame needs to be named exactly like this:**  
+`frame_0`  
+`frame_1`  
+`frame_2`  
+`frame_3`  
+...and so on  
 
 I know that can be a great pain to do manually, so I created a [Powershell script you can use here](https://gist.github.com/landnthrn/680255c2de55624c82078deea1a5012e)  
 *(Ignore the comment I make at the button of the script post, because they do need to stay named as `frame_0` , `frame_1` , `frame_2` ...etc...)*
@@ -112,17 +125,29 @@ I know that can be a great pain to do manually, so I created a [Powershell scrip
 
 **Change these values in Vars.inc:**
 
-- Make sure `ImagePath=frame_0.gif` (this should already be set correctly for sequences)  
+- Change `ImageName=GirlCoffeeOverlay` to `ImageName=WHATEVERYOUWANT` *(this is just a name to show in Jaxcore settings)*  
 
-- Change `ImageName=GirlCoffeeOverlay` to `ImageName=WHATEVERYOUWANT` (this is just a descriptive name)  
-
-- Change `GIFTotalFrames=80` to `GIFTotalFrames=XX` (where XX is the TOTAL NUMBER of frames you have)
+- Change `TotalFrames=80` to `TotalFrames=XX` (where XX is the TOTAL NUMBER of frames you have)
 
 *For example:*  
 If you have `frame_0` through `frame_49`, that's **50 frames total including 0**, so set as:  
-`GIFTotalFrames=50`  
+`TotalFrames=50`  
 
 - Save the file  
+
+**CHANGE THE SET FILE FORMAT TO YOURS:** *(If you're not using .gif)*
+
+- Go to this location:  
+`C:\Users\%USERNAME%\Documents\Rainmeter\Skins\Overlayer\Main`
+
+- Find the Main.ini file > Right click > Edit
+
+- Find the line that says:  
+`String=#@#UserImages\frame_[FrameCalc].gif`  
+
+- Change the `.gif` at the end to match your file format
+
+- Save the file
 
 - Refresh all skins *(Find the Rainmeter drop icon in your system tray > Right click > Refresh All)*
 
