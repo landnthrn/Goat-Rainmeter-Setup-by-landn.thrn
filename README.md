@@ -81,19 +81,27 @@ At first all these skins may activate a little messy or scattered, this is where
 
 ### OPTION 2: USING AN IMAGE SEQUENCE (ANIMATED)
 
-**I modified Overlayer Skin to support an animation including transparent animations, but this can only be done using an image sequence (images of each frame)**
+**I modified Overlayer Skin to support an animation including transparent animations,  
+but this can only be done using an image sequence (images of each frame)**
+
+[Video to .JPG](https://ezgif.com/video-to-jpg)  
+[Video to .PNG](https://ezgif.com/video-to-png)  
+[GIF to .JPG](https://ezgif.com/gif-to-jpg)  
+
+Or you can use [ImageMagick](https://imagemagick.org) *(With FFmpeg)* for more options  
 
 - Insert all your image frames into this location:  
 `C:\Users\%USERNAME%\Documents\Rainmeter\Skins\Overlayer\@Resources\UserImages`
 
-- **Make sure to name each image frame exactly like this:**  
+- **Every image frame need to be name exactly like this:**  
 `frame_0.gif`  
 `frame_1.gif`  
 `frame_2.gif`  
 `frame_3.gif`  
 ...and so on
 
-I know that can be a great pain to do manually, so try a tool online, or use Cursor Code AI Agent free trial to do it for you
+I know that can be a great pain to do manually, so I created a [Powershell script you can use here](https://gist.github.com/landnthrn/680255c2de55624c82078deea1a5012e)  
+*(Ignore the comment I make at the button of the script post, because they do need to stay named as `frame_0` , `frame_1` , `frame_2` ...etc...)*
 
 (The file format can be `.gif`, `.png`, or `.jpeg` — just make sure all your images in your image sequence are the same format)
 
