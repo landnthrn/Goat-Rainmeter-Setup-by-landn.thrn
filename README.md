@@ -8,7 +8,8 @@
 
 Enjoy some tweaks in Windows 10/11 with this Rainmeter setup! 
 
-### [Suggest to download from Buy me a Coffee](https://buymeacoffee.com/landn.thrn/e/455433)
+This repo is above 100mb's so downloading it on Github may be problematic
+### [Suggest to download from here](https://buymeacoffee.com/landn.thrn/e/455433)
 
 ---
 
