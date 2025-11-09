@@ -20,30 +20,31 @@ Enjoy some tweaks in Windows 10/11 with this Rainmeter setup!
 
 [Wikki Jaxcore Getting Started](https://wiki.jaxcore.app/getting-started/installation) *(If you need)*  
 
-You will have to do some onboarding when you initially install JaxCore, I recommend to select Hardware Acceleration and pause when game is in fullscreen mode  
+- You will have to do some onboarding when you initially install JaxCore,  
+I recommend to select Hardware Acceleration and pause when game is in fullscreen mode  
 
-Once these have been installed go to this path address in your File Explorer:  
+- Once these have been installed go to this path address in your File Explorer:  
 `C:\Users\%USERNAME%\Documents\Rainmeter\Skins`  
 
-Paste all the folders that are inside this pack's Skin's Folder into:  
+- Paste all the folders that are inside this pack's Skin's Folder into:  
 `C:\Users\%USERNAME%\Documents\Rainmeter\Skins`  
 
-If you already have some of the same Skins in your Skins Folder replace them with the ones from this pack  
+- If you already have some of the same Skins in your Skins Folder replace them with the ones from this pack  
 *(Don't replace the Skin Folder itself with this one, just the folders that are inside the Skins Folder if it asks you about replacing)*  
 
-Move the Sonder green drop icon `.rmskin` file from this pack into:  
+- Move the Sonder green drop icon `.rmskin` file from this pack into:  
 `C:\Users\%USERNAME%\Documents\Rainmeter`  
 
-Run the **Sonder.rmskin** file to install that Skin  
+- Run the **Sonder.rmskin** file to install that Skin  
 
-Go to your system tray *(the upward arrow at the bottom left of your taskbar)* — you should see the Rainmeter drop icon there  
+- Go to your system tray *(the upward arrow at the bottom left of your taskbar)* — you should see the Rainmeter drop icon there  
 
-Right click the Rainmeter icon and click **Refresh All**  
+- Right click the Rainmeter icon and click **Refresh All**  
 
-Open **JaxCore** by Windows Search  
+- Open **JaxCore** by Windows Search  
 If it doesn't appear in search, then double click your Rainmeter icon in your system tray > expand the #JaxCore folder > expand the Main folder > double click `Configurator.ini` to open JaxCore  
 
-On the JaxCore app select **Library**, one by one activate `YourFlyouts`, `ValliStart`, `IdleStyle`, and `Overlayer`  
+- On the JaxCore app select **Library**, one by one activate `YourFlyouts`, `ValliStart`, `IdleStyle`, and `Overlayer`  
 *(You don't need to install them from JaxCore App because you already placed the source files for those in your Rainmeter Skins folder)*
 
 At first all these skins may activate a little messy or scattered, this is where you can tweak the settings for each one to your liking  
@@ -54,24 +55,26 @@ At first all these skins may activate a little messy or scattered, this is where
 
 ### OPTION 1: USING A SINGLE IMAGE
 
-Put your image into this location:  
+- Put your image into this location:  
 `C:\Users\%USERNAME%\Documents\Rainmeter\Skins\Overlayer\@Resources\UserImages`
 
-Then go to this location:  
+- Then go to this location:  
 `C:\Users\%USERNAME%\Documents\Rainmeter\Skins\Overlayer\@Resources`
 
-Find the Vars.inc file > Right click > Edit  
+- Find the Vars.inc file > Right click > Edit  
 
 **Change these values in Vars.inc:**
 
-Change `ImagePath=frame_0.gif` to `ImagePath=YOURIMAGENAME.png` (or .jpg, .gif, whatever your file format is)  
+- Change `ImagePath=frame_0.gif` to `ImagePath=YOURIMAGENAME.png` (or .jpg, .gif, whatever your file format is)  
 
-Change `ImageName=GirlCoffeeOverlay` to `ImageName=WHATEVERYOUWANT` (this is just a descriptive name that shows in settings)  
-Change `GIFTotalFrames=80` to `GIFTotalFrames=1`  
+- Change `ImageName=GirlCoffeeOverlay` to `ImageName=WHATEVERYOUWANT`  
+(this is just a descriptive name that shows in settings)  
 
-Save the file.  
+- Change `GIFTotalFrames=80` to `GIFTotalFrames=1`  
 
-Refresh all skins: *(Find the Rainmeter drop icon in your system tray > Right click > Refresh All)*
+- Save the file.  
+
+- Refresh all skins: *(Find the Rainmeter drop icon in your system tray > Right click > Refresh All)*
 
 ---
 
@@ -79,10 +82,10 @@ Refresh all skins: *(Find the Rainmeter drop icon in your system tray > Right cl
 
 **I modified Overlayer Skin to support an animation including transparent animations, but this can only be done using an image sequence (images of each frame)**
 
-Insert all your image frames into this location:  
+- Insert all your image frames into this location:  
 `C:\Users\%USERNAME%\Documents\Rainmeter\Skins\Overlayer\@Resources\UserImages`
 
-**Make sure to name each image frame exactly like this:**  
+- **Make sure to name each image frame exactly like this:**  
 `frame_0.gif`  
 `frame_1.gif`  
 `frame_2.gif`  
@@ -93,26 +96,26 @@ I know that can be a great pain to do manually, so try a tool online, or use Cur
 
 (The file format can be `.gif`, `.png`, or `.jpeg` — just make sure all your images in your image sequence are the same format)
 
-Next, go to this location:  
+- Next, go to this location:  
 `C:\Users\%USERNAME%\Documents\Rainmeter\Skins\Overlayer\@Resources`
 
-Find the Vars.inc file > Right click > Edit  
+- Find the Vars.inc file > Right click > Edit  
 
 **Change these values in Vars.inc:**
 
-Make sure `ImagePath=frame_0.gif` (this should already be set correctly for sequences)  
+- Make sure `ImagePath=frame_0.gif` (this should already be set correctly for sequences)  
 
-Change `ImageName=GirlCoffeeOverlay` to `ImageName=WHATEVERYOUWANT` (this is just a descriptive name)  
+- Change `ImageName=GirlCoffeeOverlay` to `ImageName=WHATEVERYOUWANT` (this is just a descriptive name)  
 
-Change `GIFTotalFrames=80` to `GIFTotalFrames=XX` (where XX is the TOTAL NUMBER of frames you have)
+- Change `GIFTotalFrames=80` to `GIFTotalFrames=XX` (where XX is the TOTAL NUMBER of frames you have)
 
 *For example:*  
 If you have `frame_0` through `frame_49`, that's **50 frames total including 0**, so set as:  
 `GIFTotalFrames=50`  
 
-Save the file  
+- Save the file  
 
-Refresh all skins *(Find the Rainmeter drop icon in your system tray > Right click > Refresh All)*
+- Refresh all skins *(Find the Rainmeter drop icon in your system tray > Right click > Refresh All)*
 
 #### EXTRA NOTE:
 You can adjust position, size, and other display settings through the **JaxCore app** by going to:  
@@ -122,25 +125,25 @@ You can adjust position, size, and other display settings through the **JaxCore 
 
 # HOW TO CUSTOMIZE YOUR FLYOUTS
 
-On the JaxCore app Library select **YourFlyouts > Layout**  
+- On the JaxCore app Library select **YourFlyouts > Layout**  
 
-Try out the different Flyout options *(trigger display button is F2, pause audio button, or volume adjust)*
+- Try out the different Flyout options *(trigger display button is F2, pause audio button, or volume adjust)*
 
 ---
 
 # HOW TO CUSTOMIZE YOUR IDLESTYLE IMAGE
 
-Insert whatever image you'd like into this location:  
+- Insert whatever image you'd like into this location:  
 `C:\Users\%USERNAME%\Documents\Rainmeter\Skins\IdleStyle\@Resources\Images`  
 
-Then go to this location:  
+- Then go to this location:  
 `C:\Users\%USERNAME%\Documents\Rainmeter\Skins\IdleStyle\Launch\Vars`  
 
-Find the `String.inc` file in there > Right click > Edit  
+- Find the `String.inc` file in there > Right click > Edit  
 
-Change the `Idlebackground.jpg` name to the name of your new custom image, and include the file format at the end (`.jpg` , `.png`)  
+- Change the `Idlebackground.jpg` name to the name of your new custom image, and include the file format at the end (`.jpg` , `.png`)  
 
-Refresh all skins after you're done this *(Rainmeter drop icon in system tray > Right click > Refresh All)* 
+- Refresh all skins after you're done this *(Rainmeter drop icon in system tray > Right click > Refresh All)* 
 
 ---
 
