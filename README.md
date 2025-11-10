@@ -101,7 +101,7 @@ but this can only be done using an image sequence (images of each frame)**
 [Video to .PNG](https://ezgif.com/video-to-png)  
 [GIF to .JPG](https://ezgif.com/gif-to-jpg)  
 
-Or you can use [ImageMagick](https://imagemagick.org) *(With FFmpeg)* for more options  
+Or you can use something more advanced like [ImageMagick](https://imagemagick.org) *(With FFmpeg)* for more options  
 
 - Insert all your image frames into this location:  
 `C:\Users\%USERNAME%\Documents\Rainmeter\Skins\Overlayer\@Resources\UserImages`
