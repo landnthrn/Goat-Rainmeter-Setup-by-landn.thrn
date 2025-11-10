@@ -114,7 +114,7 @@ Or you can use something more advanced like [ImageMagick](https://imagemagick.or
 ...and so on  
 
 I know that can be a great pain to do manually, so I created a [Powershell script you can use here](https://gist.github.com/landnthrn/680255c2de55624c82078deea1a5012e)  
-*(Ignore the comment I make at the button of the script post, because they do need to stay named as `frame_0` , `frame_1` , `frame_2` ...etc...)*
+*(Ignore the comment I make at the bottom of the script post, because they do need to stay named as `frame_0` , `frame_1` , `frame_2` ...etc...)*
 
 (The file format can be `.gif`, `.png`, or `.jpeg` — just make sure all your images in your image sequence are the same format)
 
