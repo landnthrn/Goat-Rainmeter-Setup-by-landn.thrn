@@ -97,9 +97,9 @@ At first all these skins may activate a little messy or scattered, this is where
 **I modified Overlayer Skin to support an animation including transparent animations,  
 but this can only be done using an image sequence (images of each frame)**
 
-[Video to .JPG](https://ezgif.com/video-to-jpg)  
-[Video to .PNG](https://ezgif.com/video-to-png)  
-[GIF to .JPG](https://ezgif.com/gif-to-jpg)  
+**[Video to .JPG](https://ezgif.com/video-to-jpg)**  
+**[Video to .PNG](https://ezgif.com/video-to-png)**  
+**[GIF to .JPG](https://ezgif.com/gif-to-jpg)**  
 
 Or you can use something more advanced like [ImageMagick](https://imagemagick.org) *(With FFmpeg)* for more options  
 
@@ -183,7 +183,27 @@ You can adjust position, size, and other display settings through the **JaxCore 
 
 # EXTRA INFO
 
-Of course you can do whatever other tweaks and modifications as you wish in the JaxCore Skin Settings, the Sonder Skin settings, or the Skin source files themselves  
+Of course you can do whatever other tweaks and modifications as you wish in the  
+JaxCore Skin Settings, the Sonder Skin settings, or the Skin source files themselves  
+This is just my modified & personal setup, that also provides a couple new features to skins,  
+such as animated image sequence support for Overlayer.  
+
+
+## SKIN CREDITS:
+- **[Sonder Skin](https://www.deviantart.com/michaelpurses/art/Sonder-Rainmeter-skin-838147223)**
+- **[Sonder GitHub](https://github.com/mpurses/Sonder)**
+
+- **[Jaxcore Website](https://jaxcore.app)**
+- **[Jaxcore GitHub](https://github.com/Jax-Core/JaxCore)**
+
+- **[YourFlyouts](https://github.com/Jax-Core/YourFlyouts)**
+- **[Overlayer](https://github.com/Jax-Core/Overlayer)**
+- **[IdleStyle](https://github.com/Jax-Core/IdleStyle)**
+- **[YourMixer](https://github.com/Jax-Core/YourMixer)**
+- **[ModularVisualizer](https://github.com/Jax-Core/ModularVisualizer)**
+- **[ModularPlayers](https://github.com/Jax-Core/ModularPlayers)**
+- **[ModularClocks](https://github.com/Jax-Core/ModularClocks)**
+
 
 ---
 
