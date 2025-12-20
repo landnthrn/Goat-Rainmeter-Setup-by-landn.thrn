@@ -15,11 +15,11 @@ Enjoy some tweaks in Windows 10/11 with this Rainmeter setup!
 
 # HOW TO INSTALL:
   
-[Install Rainmeter](https://www.rainmeter.net)  
+**[Install Rainmeter](https://www.rainmeter.net)*  
   
-[Install Jaxcore](https://jaxcore.app)
+**[Install Jaxcore](https://jaxcore.app)**
 
-[Wikki Jaxcore Getting Started](https://wiki.jaxcore.app/getting-started/installation) *(If you need)*  
+**[Wikki Jaxcore Getting Started](https://wiki.jaxcore.app/getting-started/installation)** *(If you need)*  
 
 - You will have to do some onboarding when you initially install JaxCore,  
 I recommend to select Hardware Acceleration and pause when game is in fullscreen mode  
