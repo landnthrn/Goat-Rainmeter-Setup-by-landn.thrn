@@ -15,7 +15,7 @@ Enjoy some tweaks in Windows 10/11 with this Rainmeter setup!
 
 # HOW TO INSTALL:
   
-**[Install Rainmeter](https://www.rainmeter.net)*  
+**[Install Rainmeter](https://www.rainmeter.net)**  
   
 **[Install Jaxcore](https://jaxcore.app)**
 
