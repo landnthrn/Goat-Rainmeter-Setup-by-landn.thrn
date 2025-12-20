@@ -1,3 +1,6 @@
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 GOAT RAINMETER SETUP
 
 Enjoy some tweaks in Windows 10/11 with this Rainmeter setup! 
@@ -5,7 +8,7 @@ Enjoy some tweaks in Windows 10/11 with this Rainmeter setup!
 This repo is above 100mb's so downloading it on Github may be problematic  
 Suggest to download from here: https://buymeacoffee.com/landn.thrn/e/455433
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 HOW TO INSTALL:
   
@@ -18,7 +21,7 @@ https://jaxcore.app
 Wikki Jaxcore Getting Started (If you need):
 https://wiki.jaxcore.app/getting-started/installation
 
-~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 — You will have to do some onboarding when you initially install JaxCore,  
   I recommend to select Hardware Acceleration and pause when game is in fullscreen mode  
@@ -49,7 +52,7 @@ https://wiki.jaxcore.app/getting-started/installation
 
 At first all these skins may activate a little messy or scattered, this is where you can tweak the settings for each one to your liking  
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 HOW TO CUSTOMIZE YOUR OVERLAYER IMAGE/GIF
 
@@ -90,7 +93,7 @@ OPTION 1: USING A SINGLE IMAGE
 
   - Refresh all skins: (Find the Rainmeter drop icon in your system tray > Right click > Refresh All)
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 OPTION 2: USING AN IMAGE SEQUENCE (ANIMATED)
 
@@ -158,7 +161,7 @@ EXTRA NOTE:
 You can adjust position, size, and other display settings through the JaxCore app by going to:  
 Library > Overlayer > Settings
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 HOW TO CUSTOMIZE YOUR FLYOUTS
 
@@ -166,7 +169,7 @@ HOW TO CUSTOMIZE YOUR FLYOUTS
 
 — Try out the different Flyout options (trigger display button is F2, pause audio button, or volume adjust)
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 HOW TO CUSTOMIZE YOUR IDLESTYLE IMAGE
 
@@ -182,11 +185,51 @@ HOW TO CUSTOMIZE YOUR IDLESTYLE IMAGE
 
 — Refresh all skins after you're done this (Rainmeter drop icon in system tray > Right click > Refresh All) 
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 EXTRA INFO:
 
-Of course you can do whatever other tweaks and modifications as you wish in the JaxCore Skin Settings, the Sonder Skin settings, or the Skin source files themselves  
+Of course you can do whatever other tweaks and modifications as you wish in the
+JaxCore Skin Settings, the Sonder Skin settings, or the Skin source files themselves
+This is just my modified & personal setup, that also provides a couple new features to skins,
+such as animated image sequence support for Overlayer.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+SKIN CREDITS:
+
+Sonder Skin
+https://www.deviantart.com/michaelpurses/art/Sonder-Rainmeter-skin-838147223
+
+Sonder Skin GitHub
+https://github.com/mpurses/Sonder
+
+Jaxcore Website
+https://jaxcore.app
+
+Jaxcore GitHub
+https://github.com/Jax-Core/JaxCore
+
+YourFlyouts
+https://github.com/Jax-Core/YourFlyouts
+
+Overlayer
+https://github.com/Jax-Core/Overlayer
+
+Idlestyle
+https://github.com/Jax-Core/IdleStyle
+
+YourMixer
+https://github.com/Jax-Core/YourMixer
+
+ModularVisualizer
+https://github.com/Jax-Core/ModularVisualizer
+
+ModularPlayers
+https://github.com/Jax-Core/ModularPlayers
+
+ModularClocks
+https://github.com/Jax-Core/ModularClocks
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
